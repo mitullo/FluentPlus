@@ -2292,7 +2292,7 @@ Components.Element = (function()
 			end)
 			Element.IconImage = New("ImageLabel", {
 				Image = iconImage,
-				Size = UDim2.fromOffset(16, 16),
+				Size = UDim2.fromOffset(32, 32),
 				BackgroundTransparency = 1,
 				LayoutOrder = 1,
 				ThemeTag = {
