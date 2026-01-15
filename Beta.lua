@@ -4015,7 +4015,7 @@ Components.TitleBar = (function()
 
 				Config.Icon and New("ImageLabel", {
 					Image = Config.Icon,
-					Size = UDim2.fromOffset(40, 40),
+					Size = UDim2.fromOffset(38, 38),
 					BackgroundTransparency = 1,
 					LayoutOrder = 1,
 					ThemeTag = {
