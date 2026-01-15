@@ -2292,7 +2292,7 @@ Components.Element = (function()
 			end)
 			Element.IconImage = New("ImageLabel", {
 				Image = iconImage,
-				Size = UDim2.fromOffset(64, 64),
+				Size = UDim2.fromOffset(32, 32),
 				BackgroundTransparency = 1,
 				LayoutOrder = 1,
 				ThemeTag = {
@@ -4015,7 +4015,7 @@ Components.TitleBar = (function()
 
 				Config.Icon and New("ImageLabel", {
 					Image = Config.Icon,
-					Size = UDim2.fromOffset(20, 20),
+					Size = UDim2.fromOffset(40, 40),
 					BackgroundTransparency = 1,
 					LayoutOrder = 1,
 					ThemeTag = {
