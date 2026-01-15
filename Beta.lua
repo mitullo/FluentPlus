@@ -38,6 +38,7 @@ local ProtectGui = protectgui or (syn and syn.protect_gui) or function() end
 
 local Themes = {
 	Names = {
+		"Apple",
 		"Dark",
 		"Darker", 
 		"AMOLED",
@@ -58,6 +59,43 @@ local Themes = {
 		"Bloody",
 		"Arctic"
 	},
+ Apple = {
+    Name = "Apple",
+    Accent = Color3.fromRGB(255, 59, 48),  -- Deep Apple red for powerful accents
+    AcrylicMain = Color3.fromRGB(50, 50, 50),  -- Soft mid-gray background
+    AcrylicBorder = Color3.fromRGB(70, 70, 70),  -- Slightly lighter border for low contrast
+    AcrylicGradient = ColorSequence.new(Color3.fromRGB(45, 45, 45), Color3.fromRGB(55, 55, 55)),  -- Subtle gradient
+    AcrylicNoise = 0.85,  -- Reduced noise for simplicity
+    TitleBarLine = Color3.fromRGB(65, 65, 65),
+    Tab = Color3.fromRGB(80, 80, 80),
+    Element = Color3.fromRGB(80, 80, 80),  -- Close to background for low contrast
+    ElementBorder = Color3.fromRGB(45, 45, 45),
+    InElementBorder = Color3.fromRGB(70, 70, 70),
+    ElementTransparency = 0.9,  -- Higher transparency for a softer, simpler look
+    ToggleSlider = Color3.fromRGB(80, 80, 80),
+    ToggleToggled = Color3.fromRGB(40, 40, 40),
+    SliderRail = Color3.fromRGB(80, 80, 80),
+    DropdownFrame = Color3.fromRGB(90, 90, 90),
+    DropdownHolder = Color3.fromRGB(50, 50, 50),
+    DropdownBorder = Color3.fromRGB(45, 45, 45),
+    DropdownOption = Color3.fromRGB(80, 80, 80),
+    Keybind = Color3.fromRGB(80, 80, 80),
+    Input = Color3.fromRGB(90, 90, 90),
+    InputFocused = Color3.fromRGB(30, 30, 30),
+    InputIndicator = Color3.fromRGB(120, 120, 120),
+    Dialog = Color3.fromRGB(50, 50, 50),
+    DialogHolder = Color3.fromRGB(45, 45, 45),
+    DialogHolderLine = Color3.fromRGB(40, 40, 40),
+    DialogButton = Color3.fromRGB(50, 50, 50),
+    DialogButtonBorder = Color3.fromRGB(70, 70, 70),
+    DialogBorder = Color3.fromRGB(65, 65, 65),
+    DialogInput = Color3.fromRGB(60, 60, 60),
+    DialogInputLine = Color3.fromRGB(120, 120, 120),
+    Text = Color3.fromRGB(200, 200, 200),  -- Dim white for low contrast text
+    SubText = Color3.fromRGB(140, 140, 140),  -- Softer subtext
+    Hover = Color3.fromRGB(80, 80, 80),
+    HoverChange = 0.05,  -- Minimal hover change for simplicity
+},        
 	Dark = {
 		Name = "Dark",
 		Accent = Color3.fromRGB(96, 205, 255),
